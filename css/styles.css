@@ -1,0 +1,14 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+tr td {
+    border: 2px solid red;
+    padding: 10px;
+
+}
+h2{
+    text-align: center;
+    color: red;
+    font-family: "Calibri Light",Serif;
+}

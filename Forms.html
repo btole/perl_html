@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<marquee behavior="" direction="">Welcome to perl class</marquee>
+<h2>Student registration form</h2>
+<hr>
+<form action="" method="post">
+    <label for="fname" placeholder="enter your first name" required>First Name: </label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last Name: </label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email"> Email: </label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="dob"> DOB: </label>
+    <input type="date" id="dob" name="dob"><br><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="others">other</label>
+    <input type="radio" id="others" name="gender"><br><br>
+    <label for="course">courses: </label>
+    <select name="course" id="course">
+        <option value="js">Javascript</option>
+        <option value="an">angular</option>
+        <option value="ai">Artificial intelligence</option>
+        <option value="ds">Data science</option>
+        <option value="py">python</option>
+        <option value="ml">Machine learning</option>
+
+    </select><br><br>
+    <label for="upload">upload documents</label>
+    <input type="file" id="upload" name="upload"><br><br>
+    <label for="pass">Password: </label>
+    <input type="password" id="pass" name="pass"><br><br>
+    <input type='submit' value="register here"><br><br>
+
+
+</form>
+</body>
+</html>
